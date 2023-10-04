@@ -1,0 +1,97 @@
+/* Write your code here. */
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+    background-size: cover;
+  }
+}
+
+.heading {
+  font-family: "Roboto";
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  color: #0f172a;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 33px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cffafe;
+  border-radius: 10px;
+  margin: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    margin: 10px;
+  }
+}
+
+.person-image {
+  height: 120px;
+  width: 120px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .person-image {
+    height: 140px;
+    width: 140px;
+    margin-top: 25px;
+  }
+}
+
+.person-name {
+  color: #1e293b;
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .person-name {
+    font-size: 32px;
+    margin-top: 11px;
+    font-weight: 600;
+  }
+}
+
+.topic-details {
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: 500;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+@media screen and (max-width: 768px) {
+  .topic-details {
+    font-size: 18px;
+  }
+}
